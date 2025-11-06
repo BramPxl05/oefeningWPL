@@ -17,7 +17,9 @@
 
                 if (userInput == user && passwordInput == password)
                 {
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine($"Welkom, {userInput}!");
+                    Console.ResetColor();
                     return;
                 }
 
