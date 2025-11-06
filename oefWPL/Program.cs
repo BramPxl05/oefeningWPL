@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             Console.Write("Naam: ")
+            Console.Write("Wachtwoord: ")
         }
     }
 }
