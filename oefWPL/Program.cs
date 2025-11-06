@@ -4,8 +4,19 @@
     {
         static void Main(string[] args)
         {
-            Console.Write("Naam: ")
-            Console.Write("Wachtwoord: ")
+            string user = "Uzui";
+            string password = "Daddy";
+
+            Console.Write("Naam: ");
+            string userInput = Console.ReadLine();
+            Console.Write("Wachtwoord: ");
+            string passwordInput = Console.ReadLine();
+
+            if (userInput == user && passwordInput == password)
+            {
+                Console.WriteLine($"Welkom, {userInput}!");
+                return;
+            }
         }
     }
 }
